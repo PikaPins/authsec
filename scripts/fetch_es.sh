@@ -43,7 +43,7 @@ fi
 # Perform request with curl using HTTP/2
 curl --http2 -sS -X POST \"https://wechat.doonsec.com/api/v1/es/\" \
   -H \"Host: wechat.doonsec.com\" \
-  -H \"User-Agent: Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.12.5 Chrome/69.0.3497.128 Safari/537.36 QtWebEngine/Lexus/5.12.5\" \
+  -H \"User-Agent: QtWebEngine/5.12.5 Chrome/69.0.3497.128 Safari/537.36 QtWebEngine/Lexus/5.12.5\" \
   -H \"Accept: */*\" \
   -H \"Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2\" \
   -H \"Accept-Encoding: gzip, deflate, br\" \
