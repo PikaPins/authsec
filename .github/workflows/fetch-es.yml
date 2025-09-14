@@ -2,7 +2,7 @@ name: fetch-es
 on:
   schedule:
     # hourly at minute 0 UTC
-    - cron: '*/5 * * * *'
+    - cron: '*/1 * * * *'
   workflow_dispatch:
 
 jobs:
